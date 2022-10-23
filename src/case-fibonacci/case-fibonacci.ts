@@ -1,4 +1,4 @@
-// Bilangan ke-10 pada suatu barisan Fibonacci yaitu
+// Bilangan ke-n pada suatu barisan Fibonacci yaitu
 
 export const countFibonacciSequence = (n: number) => {
     let n0 = 0, n1 = 1, nextValue;
@@ -11,7 +11,6 @@ export const countFibonacciSequence = (n: number) => {
         nextValue = n0 + n1;
         n0 = n1;
         n1 = nextValue;
-      
     } 
 
     return value
